@@ -12,7 +12,7 @@ const closeBtn = document.querySelector(".section-left__header__button.red")
 dateEl.textContent = dayjs(new Date()).format("YYYY-MM-DD")
 
 const getWeather = async () => {
-    const API_KEY = 'de131c752f88b753e5cf547c097f7e69'
+    const API_KEY = '284bfdeb630520653864189833ba7c68'
     const lat = 37.5683
     const lon = 126.9778
 
@@ -28,7 +28,7 @@ const getWeather = async () => {
 getWeather()
 
 const back = () => {
-    location.href = "intro.html"
+    location.href = "index.html"
 }
 
 widgetPhoto.addEventListener("click", () => {
